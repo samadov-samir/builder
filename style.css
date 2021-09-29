@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.justify{
+    justify-content: space-between;
+}
+/*header css start*/
+.header {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+
+.header-menu {
+    padding: 30px 0px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.logo {
+    color: #fff;
+    font-size: 20px;
+}
+.menu li {
+    font-size: 0.78em;
+    font-weight: bold;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.menu li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.menu .button {
+    background-color: #07b569;
+    color: white;
+    padding: 7px 14px;
+}
+.headline h1{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+/*header css finish*/
+/*about us css start*/
+.about-img{
+    padding: 15px;
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text{
+    padding: 45px;
+    width: 50%;
+}
+.about-text p{
+    margin-top: 40px;
+}
+.about-text button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #07b569;
+    color: white;
+}
+.about-content1 .con1{
+    width: 33%;
+}
+.about-content1 .con2{
+    width: 33%;
+}
+.about-content1 .con3{
+    width: 33%;
+}
+.about-content2 .con4{
+    width: 33%;
+}
+.about-content2 .con5{
+    width: 33%;
+}
+.about-content2 .con6{
+    width: 33%;
+}
+.about-content{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.about-content h4,
+                .text{
+                    text-align: center;
+                    margin-top: 10px;
+                }
+.about-content img{
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+/*about us css finish*/
+/*our projects css start*/
+.projects{
+    width: 100%;
+}
+.project-content h2{
+    margin-left: 20%;
+    padding-bottom: 70px;
+}
+.projects .pr4{
+    width: 25%;
+}
+.projects .pr4 img{
+    width: 100%;
+}
+.project-button{
+    width: 10%;
+    margin: 60px auto 120px auto;
+}
+.project-button button{
+    padding: 11px 42px;
+    background-color: #07b569;
+    color: white;
+    text-align: center;
+}
+/*our projects css finish*/
+/*command css start*/
+.command{
+    background-image: url(img/command.png);
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+}
+.command-content{
+    text-align: center;
+    width: 900px;
+}
+.command-content p{
+    padding-top: 20px;
+    color: white;
+}
+.command-content h1{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+.command-content h4{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.command-content img{
+    margin-top: 40px;
+}
+/*command css finish*/
+/*contact us start*/
+.contact-us{
+    margin-top: 100px;
+}
+.contact-us h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-us .contant-details{
+    width: 50%;
+}
+.contact-us .contant-form{
+    width: 50%;
+    padding-left: 15px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+/*contact us finish*/
+/*footer css start*/
+footer{
+    background-image: url(img/footer1.png);
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+.footer-content .solar{
+    width: 50%;
+}
+.footer-content .newyork{
+    width: 25%;
+}
+.footer-content .london{
+    width: 25%;
+}
+.footer-content h3{
+    padding-top: 130px;
+    color: #ffffff;
+}
+.footer-content p{
+    color: #8fb0c3;
+}
+.footer-content ul{
+    list-style-type: none;
+}
+.footer-content ul li{
+    color: #8fb0c3;
+}
+/*footer css finish*/
+/*media query*/
+@media only screen and (max-width: 1005px) {
+    .container{
+        width: 800px;
+    }
+}
+@media only screen and (max-width: 805px) {
+    .container{
+        width: 600px;
+    }
+    .menu {
+        display: none;
+    }
+}
+@media only screen and (max-width: 621px) {
+    .container{
+        width: 500px;
+    }
+    .about{
+        display: block;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-content1{
+        display: block;
+    }
+    .about-content2{
+        display: block;
+    }
+    .about-content1 .con1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about-content1 .con2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about-content1 .con3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about-content2 .con4 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about-content2 .con5 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about-content2 .con6 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .command{
+        height: 75vh;
+    }
+    .contant-content{
+        display: block;
+    }
+    .contact-us .contant-details{
+        width: 100%;
+    }
+    .contact-us .contant-form{
+        width: 100%;
+    }
+    .footer-content{
+        display: block;
+    }
+    .footer-content .solar{
+        width: 100%;
+    }
+    .footer-content .newyork{
+        width: 100%;
+    }
+    .footer-content .london{
+        width: 100%;
+    }
+    footer{
+        height: 120vh;
+    }
+}
+@media only screen and (max-width: 621px) {
+    .container{
+        width: 400px;
+    }
+    .command{
+        height: 80vh;
+    }
+    footer{
+        height: 129vh;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 350px;
+    }
+    .command{
+        height: 90vh;
+    }
+    footer{
+        height: 135vh;
+    }
+}
